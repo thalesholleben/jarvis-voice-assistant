@@ -1,0 +1,38 @@
+{
+  "name": "jarvis-voice-assistant",
+  "version": "0.1.0",
+  "description": "Portfolio voice assistant with WebRTC realtime mode, STT/LLM/TTS pipeline, VAD, web search, and cost tracking.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js",
+    "audit:prod": "npm audit --omit=dev"
+  },
+  "keywords": [
+    "voice-ai",
+    "realtime-ai",
+    "webrtc",
+    "speech-to-text",
+    "text-to-speech",
+    "nodejs",
+    "express",
+    "openai-api",
+    "groq",
+    "portfolio-project"
+  ],
+  "author": "Thales",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.0",
+    "groq-sdk": "^0.37.0",
+    "helmet": "^8.2.0",
+    "openai": "^6.22.0"
+  }
+}

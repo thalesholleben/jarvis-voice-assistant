@@ -1,0 +1,18 @@
+# JARVIS Voice Assistant
+
+> Browser voice assistant portfolio project with WebRTC realtime mode, STT/LLM/TTS pipeline, VAD, web search, and cost tracking.
+
+## Core Context
+
+- [README](README.md): product overview, quickstart, stack, review guide.
+- [Architecture](docs/architecture.md): system design, data flow, and tradeoffs.
+- [API](docs/api.md): local routes and request/response contracts.
+- [Security](docs/security.md): security boundary, controls, and known limitations.
+- [Publication](docs/publication.md): clean public GitHub publishing checklist.
+- [Agent Instructions](AGENTS.md): repository map and safe editing rules.
+
+## Source Files
+
+- [server.js](server.js): Express gateway and AI provider calls.
+- [public/index.html](public/index.html): browser UI and voice interaction logic.
+- [workspace/SOUL.md](workspace/SOUL.md): public voice assistant instructions.
